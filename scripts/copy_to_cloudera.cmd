@@ -24,11 +24,5 @@ rem *                         Копирование файлов               
 rem **************************************************************************
 
 rem call :PSCP downloads/deepFriendList_deep_2.json
-
-rem call :PSCP test.txt
-rem call :PSCP init.sh
-rem call :PSCP init-hadoop.sh
-rem call :PSCP launch.sh
-call :PSCP hadoop-demo.jar
 rem call :PSCP hadoop-demo_lib/base64coder-2010-12-19.jar
-
+call :PSCP hadoop-demo.jar

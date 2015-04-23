@@ -35,7 +35,7 @@ public class LauncherEx extends Configured implements Tool {
 		FileInputFormat.addInputPath(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-		job.setMapperClass(MyMapper.class);
+		job.setMapperClass(MyMapperJson.class);
 		job.setReducerClass(MyReducer.class);
 
 		job.setMapOutputKeyClass(Text.class);
